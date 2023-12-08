@@ -25,9 +25,9 @@ document.querySelectorAll('.button').forEach(button => {
 
     button.addEventListener('click', e => {
         
-        e.preventDefault();
 
         if(!button.classList.contains('loading')) {
+            // e.preventDefault();
 
             button.classList.add('loading');
 
