@@ -28,6 +28,7 @@ document.querySelectorAll('.button').forEach(button => {
 
         if(!button.classList.contains('loading')) {
             // e.preventDefault();
+            
 
             button.classList.add('loading');
 
